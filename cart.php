@@ -12,7 +12,7 @@ require_once('utils/utility.php');
         $idList[] = $item['id'];
     }
     if (count($idList) > 0) {
-        $idList = implode(',', $idList); // chuyeern
+        $idList = implode(',', $idList); 
         //[2, 5, 6] => 2,5,6
 
         $sql = "select * from product where id in ($idList)";
@@ -35,7 +35,6 @@ require_once('utils/utility.php');
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="css/index.css"> -->
     <link rel="stylesheet" href="plugin/fontawesome/css/all.css">
     <link rel="stylesheet" href="css/cart.css">
     <title>Giỏ hàng</title>
@@ -45,7 +44,7 @@ require_once('utils/utility.php');
     <div id="wrapper">
         <?php require_once('layout/header.php'); ?>
         <!-- END HEADR -->
-        <main style="padding-bottom: 4rem;">
+        <main style="padding-bottom: 4rem; margin-top: 100px">
             <section class="cart">
                 <div class="container-top">
                     <div class="panel panel-primary">

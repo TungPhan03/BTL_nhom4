@@ -98,7 +98,7 @@ if (count($idList) > 0) {
                                 </div>
 
                             </div>
-                            <!-- <button onclick="hienthi()"><i class="fas fa-angle-down"></i> Xem lại đơn hàng</button> -->
+                            
 
                             <div class="panel panel-primary col-md-6">
                                 <h4 style="padding: 2rem 0; border-bottom:1px solid black;">Đơn hàng</h4>

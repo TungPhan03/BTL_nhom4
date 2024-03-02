@@ -28,7 +28,7 @@ require_once('utils/utility.php');
 </head>
 
 <body>
-    <div id="wrapper">
+    <div id="wrapper" style="margin-top:100px;">
         <?php require('layout/header.php') ?>
 
         <!-- END HEADR -->

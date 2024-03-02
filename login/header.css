@@ -1,7 +1,7 @@
     #wrapper header {
         width: 100%;
         margin: 0px auto;
-        /* background-color: rgb(170, 255, 227); */
+        background-image: linear-gradient(360deg, white, gray);
         padding: 10px 0;
     }
 

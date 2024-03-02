@@ -14,6 +14,7 @@
         flex-flow: column;
         justify-content: center;
         align-items: center;
+        margin-top: 100px;
     }
 
     .form-group {

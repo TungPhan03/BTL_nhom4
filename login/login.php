@@ -110,12 +110,12 @@ require_once('../database/dbhelper.php');
     if (isset($_POST["submit"]) && $_POST["username"] != '' && $_POST["password"] != '') {
         $username = $_POST["username"];
         $password = $_POST["password"];
-        // $password = md5($password);
+
         $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password' ";
         execute($sql);
         $con = mysqli_connect(HOST, USERNAME, PASSWORD, DATABASE);
         $user = mysqli_query($con, $sql);
-        if ($username == 'AdminThanh' && $password == 'thanh1010') {
+        if ($username == 'AdminTung' && $password == 'Tung') {
             echo '<script language="javascript">
                 alert("Đăng nhập Admin thành công!"); 
                 window.location = "../admin/index.php";

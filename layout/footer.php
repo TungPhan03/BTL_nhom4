@@ -18,7 +18,7 @@
         <div><strong>Thông tin</strong></div>
         <p><b>Địa chỉ: </b> 30 Thanh Bình, Hà Đông, Hà Nội</p>
         <p><b>Số điện thoại: </b> 0328456156</p>
-        <p><b>email: </b> Phantungpt03@gmail.com</p>
+        <p><b>Email: </b> Phantungpt03@gmail.com</p>
       </div>
       <div class="col">
         <div><strong>Tài khoản</strong></div>
@@ -131,6 +131,7 @@ a{
   color: black !important
 }
 a:hover{
-  color:gray !important
+  color:white !important;
+  list-style: none;
 }
 </style>

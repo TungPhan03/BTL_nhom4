@@ -71,7 +71,7 @@
                                 $order_details_List = executeResult($sql);
                                 $total = 0;
                                 $count = 0;
-                                // if (is_array($order_details_List) || is_object($order_details_List)){
+                                
                                 foreach ($order_details_List as $item) {
                                     echo '
                                         <tr style="text-align: center;">

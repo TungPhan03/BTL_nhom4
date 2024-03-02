@@ -26,7 +26,7 @@ require_once('../database/dbhelper.php');
     <header>
             <div class="container">
                 <section class="logo">
-                    <a href="../index.php"><img src="../images/logo-grabfood.svg" alt=""></a>
+                    <a href="../index.php"><img src="../images/main_logo.png" alt=""></a>
                 </section>
                 <nav style="padding: 15px 10px;">
                     <ul>
@@ -114,12 +114,10 @@ require_once('../database/dbhelper.php');
     <?php
     if (isset($_POST["submit"]) && $_POST["password"] != '' && $_POST["password-new"] != '' && $_POST["repassword-new"] != '') {
         $password = $_POST["password"];
-        // $password = md5($password);
+       
         $passwordnew = $_POST["password-new"];
         $repasswordnew = $_POST["repassword-new"];
-        // $passwordnew = md5($passwordnew);
-        // $repasswordnew = md5($repasswordnew);
-        // $password = md5($password);
+       
         $sql = "SELECT * FROM user WHERE password ='$password'";
         execute($sql);
         if (isset($_COOKIE['password'])) {

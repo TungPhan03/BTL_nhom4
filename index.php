@@ -26,12 +26,10 @@ require_once('database/dbhelper.php');
                                     <div class="box">
                                         <a href="sanpham.php?id_category=' . $item['id'] . '">
                                             <p style="text-align: center;
-                                            font-size: 30px;
-                                            color: #2c2c2c;
-                                            letter-spacing: .05em;
-                                            text-shadow: 2px 2px 0px #d5d5d5, 2px 2px 0px rgba(0, 0, 0, 0.2);
-                                            height: 100px;
-                                            padding-top: 40px;">'. $item['name'] .'</p>
+                                            font-size: 25px;
+                                            color: white;
+                                            text-shadow: 2px 2px 0px gray, 2px 2px 0px gray;
+                                            ">'. $item['name'] .'</p>
                                             <div class="bg"></div>
                                             <img src="images/bg/face.png" alt="">
                                         </a>
@@ -76,7 +74,7 @@ require_once('database/dbhelper.php');
                                             </div>
                                             <div class="time">
                                                 <img src="images/icon/icon-clock.svg" alt="">
-                                                <span>15 comment</span>
+                                                <span> 10 comment</span>
                                             </div>
                                         </div>
                                     </a>
@@ -153,7 +151,7 @@ require_once('database/dbhelper.php');
                             }
                             for ($i = 1; $i <= $current_page; $i++) {
                                 // Nếu là trang hiện tại thì hiển thị thẻ span
-                                // ngược lại hiển thị thẻ a
+                                // ngược lại thì a
                                 if ($i == $current_page) {
                                     echo '
                                     <li><a href="?page=' . $i . '">' . $i . '</a></li>';
